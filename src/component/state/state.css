@@ -1,0 +1,43 @@
+.state{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+}
+
+.stateContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+}
+.stateItem{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+.stateInput{
+    margin: 5px;
+    width: 80%;
+    height: 50px;
+    border: none;
+}
+.stateInput input:active{
+    border: none;
+}
+.stateTitle{
+    background-color: black;
+    margin-top: 0%;
+    padding: 10px 0;
+    width: 100%;
+
+}
+.stateBtn{
+    width: 81%;
+    margin: 20px 0;
+    height: 40px;
+}

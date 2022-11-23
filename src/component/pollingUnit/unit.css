@@ -1,0 +1,48 @@
+.pollingUnit{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pollingUnitContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.pollingUnitItem{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+.pollingUnitTitle{
+    margin-top: 0;
+    padding-top: 5px;
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
+
+.pollingUnitInput{
+    height: 40px;
+    margin: 10px;
+    border: none;
+    width: 80%;
+}
+.pollingUnitButton{
+    margin: 20px 0px ;
+    cursor: pointer; 
+    width: 80%;
+}
+.pollingUnitButton:hover{
+    color: rgb(82, 85, 90);
+   
+}

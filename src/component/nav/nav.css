@@ -1,0 +1,35 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+}
+.navItem{
+    align-items: center;
+    width: 70%;
+    
+}
+.navUl{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.navUl li{
+    text-decoration: none;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    
+}
+.navLi{
+   
+}

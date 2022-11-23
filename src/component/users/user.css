@@ -1,0 +1,45 @@
+.user{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.userContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userItem{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+}
+
+.userInput{
+    margin: 10px;
+    border: none;
+    height: 40px;
+    width: 80%;
+}
+
+.userTitle{
+    margin-top: 0;
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    padding: 10px 0;
+}
+.userBtn{
+    width: 80%;
+    margin: 10px 0;
+}
